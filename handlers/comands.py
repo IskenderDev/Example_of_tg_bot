@@ -2,9 +2,10 @@ import aiohttp
 from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import Message
+import time
+
 
 router = Router()
-
 
 # --- Как получать даные через API ---
 
